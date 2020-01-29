@@ -14,7 +14,7 @@
 
     <string name="checking_for_updates">업데이트 확인 중…</string>
     <string name="magisk_update_available">Magisk v%1$s 사용 가능!</string>
-    <string name="safetyNet_check_text">SafetyNet 체크를 시작하려면 누르기</string>
+    <string name="safetyNet_check_text">SafetyNet 체크 시작하기</string>
     <string name="checking_safetyNet_status">SafetyNet 상태 확인 중…</string>
 
     <!--Install Fragment-->
@@ -66,13 +66,17 @@
     <string name="zip_process_msg">zip 파일 처리 중…</string>
     <string name="magisk_update_title">새 버전의 Magisk를 사용할 수 있습니다!</string>
     <string name="settings_reboot_toast">기기를 다시 시작하면 설정이 적용됩니다.</string>
-    <string name="release_notes">릴리즈 노트</string>
+    <string name="release_notes">변경사항</string>
     <string name="repo_cache_cleared">저장소 캐시 비워짐</string>
     <string name="process_error">처리 오류</string>
     <string name="internal_storage">zip 파일이 다음 위치에 저장됨:\n[내부 저장소]%1$s</string>
     <string name="zip_process_title">처리 중</string>
 
     <!--Settings Activity -->
+    <string name="settings_su_fingerprint_title">지문 인식 활성화</string>
+    <string name="settings_su_fingerprint_summary">지문 인식으로 루트 권한을 허용합니다.</string>
+    <string name="disable_fingerprint">지문인식을 지원하지 않거나 설정된 지문이 없습니다.</string>
+    
     <string name="settings_general_category">일반</string>
     <string name="settings_dark_theme_title">어두운 테마</string>
     <string name="settings_dark_theme_summary">어두운 테마 사용</string>
@@ -94,7 +98,7 @@
     <string name="settings_su_request_30">30초</string>
     <string name="settings_su_request_60">60초</string>
     <string name="superuser_access">슈퍼유저 액세스</string>
-    <string name="auto_response">자동 응답</string>
+    <string name="auto_response">슈퍼유저 요청</string>
     <string name="request_timeout">요청 시간 제한</string>
     <string name="superuser_notification">슈퍼유저 알림</string>
     <string name="request_timeout_summary">%1$s초</string>
@@ -102,9 +106,9 @@
     <!--Superuser-->
     <string name="su_request_title">슈퍼유저 요청</string>
     <string name="deny_with_str">거부%1$s</string>
-    <string name="deny">거부</string>
-    <string name="prompt">메시지</string>
-    <string name="grant">허용</string>
+    <string name="deny">계속 거부</string>
+    <string name="prompt">수동 허가</string>
+    <string name="grant">계속 허용</string>
     <string name="su_warning">기기에 대한 전체 액세스 권한을 부여합니다.\n확실하지 않은 경우 거부하세요!</string>
     <string name="forever">영구적으로</string>
     <string name="once">한 번만</string>
