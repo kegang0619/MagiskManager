@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <string name="upgrade_msg">Full Magisk Manager로 업그레이드 하여 설치를 끝내세요. 다운로드 하고 설치할까요??</string>
+        <string name="no_internet_msg">인터넷 연결을 확인해주세요! Full Magisk Manager로 업그레이드가 필요합니다.</string>
+    </resources>
